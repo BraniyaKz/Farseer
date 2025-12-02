@@ -15,7 +15,7 @@
   "reset": "Reset to defaults",
   "config-separator-main-title": "Farseer Server Configuration",
   "config-setting-maxclientviewdistance-name": "Max Client View Distance",
-  "config-setting-maxclientviewdistance-comment": "Limits the max view distance of all players so they can't eat up all of the disk space. Increase this on the server to increase view distance for players. Ignored in Singleplayer and in 'Open to LAN' worlds. Note: Players can't see the server-side limit in the GUI, unlike with normal view distance.",
+  "config-setting-maxclientviewdistance-comment": "Limits the max view distance of all players so they can't eat up all of the disk space. Increase this on the server to increase view distance for players. Ignored in Singleplayer and in 'Open to LAN' worlds. Players can see the server-side limit in the Farseer config UI. If they set their far view distance higher than the limit, the server will make sure the limit is enforced anyway.",
   "config-setting-heightmapgridsize-name": "Heightmap Grid Size",
   "config-setting-heightmapgridsize-comment": "Increasing this will make heightmaps more detailed, but also increase the file size and bandwidth use exponentially. Value should be a power of two (32, 64, 128, 256...). 512 is the max value, and samples the heightmap at every block. If changing this on an existing world, be sure to remove the database file for that world first (VintageStoryData/Farseer Directory) to reset existing regions.",
   "config-setting-genrealchunks-name": "Generate Real Chunks",
